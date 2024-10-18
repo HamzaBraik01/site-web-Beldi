@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Navebar {
+    display: flex;
+    justify-content:space-between;
+    position: fixed;
+    width: 100%;
+    height: 119px;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    overflow: hidden; 
+    padding: 1px;
+    z-index: 1000;
+    
+}
+.logo{
+   margin-left: 25px;
+}
+nav ul {
+    margin: 30px 300px 30px 10px;
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 50px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size:22px;
+    font-family: "Poppins", system-ui;
+    font-optical-sizing: auto;
+}
+nav a.bt {
+    color:  #E9BD8C;
+}
+/*end Navbar*/
+
+.top-products {
+    text-align: center;
+    padding: 20px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top-products h2{
+    margin-top: 30px;
+    font-size:64px;
+    font-family: "Sansita Swashed", system-ui;
+    font-optical-sizing: auto;
+    margin-bottom:50px ;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    gap: 10px;
+    padding: 20px;
+}
+
+.grid-item {
+    text-align: center;
+    position: relative;
+}
+
+.product-image {
+    width: 100%;
+    height: 411PX;
+    
+}
+
+.add-button {
+    border-radius: 4px;
+    border: 1px solid #933C24 ;
+    padding: 12px;
+    height: 49px;
+    width: 71px;
+    background-color: #933C24;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 340px;
+    right: 30px;
+
+}
+.grid-item p {
+    font-size: 24px;
+    font-family: "Inter";
+    color: white;
+}
+.price{
+    position: absolute;
+    top: 250px;
+    left: 30px;
+}
+.icon1{
+    position: absolute;
+    top: 250px;
+    right: 30px;
+}
+.type{
+    position: absolute;
+    top: 330px;
+    left: 30px;
+}
+/*end top products*/
+.Menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Menu h2 {
+    margin-top: 30px;
+    color: #111111;
+    font-size : 64px;
+    font-family:"Sansita Swashed";
+    margin-bottom:50px ;
+    
+}
+.Menu nav{
+    margin-left: 300px;
+}
+.Menu nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li a {
+    color: #5D5D5D;
+    font :bold 24px;
+    font-family:"Poppins";
+}
+.Menu .terr1 {
+    margin-left:290px ;
+    border-color:#933C24 ;
+    width: 70px;
+    height: 6px;
+    background-color:#933C24 ;
+}
+.Menu .terr2 {
+    margin-left:400px ;
+    border-color:#933C24 ;
+    width: 89px;
+    height: 6px;
+    background-color:#933C24 ;
+}
+.Menu .terr3 {
+    margin-left:520px ;
+    border-color:#933C24 ;
+    width: 90px;
+    height: 6px;
+    background-color:#933C24 ;
+}
+.Menu .terr4 {
+    margin-left:650px ;
+    border-color:#933C24 ;
+    width: 73px;
+    height: 6px;
+    background-color:#933C24 ;
+}
+.Menu .terr5 {
+    margin-left:750px ;
+    border-color:#933C24 ;
+    width: 50px;
+    height: 6px;
+    background-color:#933C24 ;
+}
+.Menu .terr6 {
+    margin-left:845px ;
+    border-color:#933C24 ;
+    width: 90px;
+    height: 6px;
+    background-color:#933C24 ;
+}
+.Menu hr{
+    margin-top: 0px;
+    width: 1120px;
+    color: #D9D9D9;
+}
+.Menu .gallery {
+    margin-top:70px ;
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    grid-template-rows: 350px 350px;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom:50px ;
+}
+.Menu .gallery .grid-item2 img{
+    width: 100%;              
+    height: 100%;             
+    object-fit: cover;         
+    border-radius: 0px;
+}
+
+
+
+
+/*footer*/
+.footer{
+    background-image: url('../img/cover3.png'); 
+    height: 633PX;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden; 
+    padding: 0px 0;
+    text-align: center;
+}
+.footer .footer-container .footer-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content:space-between;
+    width: 100%;
+    
+}
+
+.footer-bar{
+    margin-left:50px;
+}
+.footer-bar ul {
+    margin: 40px 300px 30px 10px;
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 50px;
+}
+.footer-bar ul p {
+    font-size: 24px;
+    font-family: "Inter";
+    font-optical-sizing: auto;
+    color: #E9BD8D;
+}
+.line hr{
+    width: 90%;             
+    margin: 0 auto;          
+    display: block;
+    border: none;           
+    border-top: 2px solid #E9BD8D;
+}
+.main {
+    margin-top:50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.footer-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+.footer-section {
+    margin: 10px;
+    text-align: left;
+
+    
+  }
+.footer-section h3 {
+    color: #E9BD8D; 
+    font-size:36px;
+  }
+.footer-section p,
+.footer-section a {
+    color: #ccc; 
+    font-size:24px;
+    font-family: bold "Poppins";
+    font-optical-sizing: auto;
+    
+  }
+.footer-section a {
+    text-decoration: none;
+  }
+.footer-section a:hover {
+    text-decoration: underline;
+  }
+.news-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+.news-item img {
+    width: 100px;
+    height: 67px;
+    margin-right: 10px;
+}
+span{
+    color: #E9BD8C; 
+    font-size:18px;
+}
+  
+.footer-bottom {
+    margin-top: 150px;
+    font-size: 24px;
+    font-size:bold;
+    color:#737373;
+}
+

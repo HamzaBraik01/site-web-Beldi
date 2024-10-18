@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Navebar {
+    display: flex;
+    justify-content:space-between;
+    position: fixed;
+    width: 100%;
+    height: 119px;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    overflow: hidden; 
+    padding: 1px;
+    z-index: 1000;
+    
+}
+.logo{
+   margin-left: 25px;
+}
+nav ul {
+    margin: 30px 300px 30px 10px;
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 50px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size:22px;
+    font-family: "Poppins", system-ui;
+    font-optical-sizing: auto;
+}
+nav a.bt {
+    color:  #E9BD8C;
+}
+/*end Navbar*/
+.about-us{
+    margin-top: 119px;
+    background-image: url('../img/cover4.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 454px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-us h3{
+    font-size: 48px;
+    font-family: "Sansita Swashed";
+    font-optical-sizing: auto;
+    color: white;
+    margin-bottom:20px;
+}
+.about-us p{
+    font-size: 24px;
+    color: #B9B9B9;
+    font-family: "Inter";
+    font-optical-sizing: auto;
+}
+.about-us button{
+    margin-top: 30px;
+    margin-left: 60px;
+    padding: 10px 20px;
+    background-color: #933C24;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width:153px;
+    height:63px;
+    font-size: 24px;
+    font-family: "Inter";
+}
+.who-are-we h2 {
+    margin-top: 10px;
+    font-size: 64px;
+    font-family: "Sansita Swashed";
+    margin-bottom:20px;
+}
+.who-are-we-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.who-are-we-image {
+    height : 693px;
+    width: 490px;
+    margin-left:100px;
+    margin-bottom:50px;
+}
+.who-are-we-content p{
+    font-size:48px;
+    font-family: "Sansation Light" ;
+    
+}
+.who-are-we-content .who-are-we-p{
+    margin-bottom: 50px;
+}
+
+
+/*footer*/
+.footer{
+    background-image: url('../img/cover3.png'); 
+    height: 633PX;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden; 
+    padding: 0px 0;
+    text-align: center;
+}
+.footer .footer-container .footer-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content:space-between;
+    width: 100%;
+    
+}
+
+.footer-bar{
+    margin-left:50px;
+}
+.footer-bar ul {
+    margin: 40px 300px 30px 10px;
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 50px;
+}
+.footer-bar ul p {
+    font-size: 24px;
+    font-family: "Inter";
+    font-optical-sizing: auto;
+    color: #E9BD8D;
+}
+.line hr{
+    width: 90%;             
+    margin: 0 auto;          
+    display: block;
+    border: none;           
+    border-top: 2px solid #E9BD8D;
+}
+.main {
+    margin-top:50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.footer-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+.footer-section {
+    margin: 10px;
+    text-align: left;
+
+    
+  }
+.footer-section h3 {
+    color: #E9BD8D; 
+    font-size:36px;
+  }
+.footer-section p,
+.footer-section a {
+    color: #ccc; 
+    font-size:24px;
+    font-family: bold "Poppins";
+    font-optical-sizing: auto;
+    
+  }
+.footer-section a {
+    text-decoration: none;
+  }
+.footer-section a:hover {
+    text-decoration: underline;
+  }
+.news-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+.news-item img {
+    width: 100px;
+    height: 67px;
+    margin-right: 10px;
+}
+span{
+    color: #E9BD8C; 
+    font-size:18px;
+}
+  
+.footer-bottom {
+    margin-top: 150px;
+    font-size:  24px;
+    font-size:bold;
+    color:#737373;
+  }
+

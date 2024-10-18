@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    background-image: url('../img/cover1.png'); 
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden; /* Empêche tout débordement */
+}
+
+.Navebar {
+    display: flex;
+    justify-content:space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 1px;
+    z-index: 1000;
+    
+}
+.logo{
+   margin-left: 25px;
+}
+nav ul {
+    margin: 30px 300px 30px 10px;
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 50px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size:22px;
+    font-family: "Poppins", system-ui;
+    font-optical-sizing: auto;
+}
+nav a.bt {
+    color:  #E9BD8C;
+}
+
+.hero h2 {
+    font-size: 24px;
+    color: white;
+    
+}
+
+.hero{
+    text-align: left;
+    margin-top: 200px;
+    margin-left: 100px;
+
+}
+.hero h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #E9BD8C;
+}
+.hero p {
+    font-size: 74px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: "Sansita Swashed";
+    font-optical-sizing: auto;
+}
+ 
+.hero .buttons .button1 {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px; 
+  }
+  
+  .buttons .button1:hover {
+    background-color: #ff4500;
+  }
+  a.button2 {
+    text-decoration: none;
+    font-size: 24px;
+    color: #E9BD8C;
+
+  }
+  .content2{
+    background-image: url('../img/cover2.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 442px; 
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ .offer {
+    text-align: center;
+    padding: 50px 20px;
+    
+}
+
+.offer .offer-p1{
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #933C24;
+    font-family: "Sansita Swashed", system-ui;
+    font-optical-sizing: auto;
+}
+.offer .offer-p2{
+    font-size: 24px;
+    color: #5D5D5D;
+    font-family: "Inter", system-ui;
+    font-optical-sizing: auto;
+}
+.content2 .offer .offertoutal{
+  margin-bottom: 40px;
+}
+.content2 .offer .button3{
+    background-color: #933C24;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 10px;
+    
+    text-decoration: none;
+    border-radius: 5px; 
+}
+.content2 .offer .button3:hover {
+    background-color: #ff4500;
+  }
+
+.footer{
+    background-image: url('../img/cover3.png'); 
+    height: 633PX;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden; 
+    padding: 0px 0;
+    text-align: center;
+}
+.footer .footer-container .footer-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content:space-between;
+    width: 100%;
+    
+}
+
+.footer-bar{
+    margin-left:50px;
+}
+.footer-bar ul {
+    margin: 40px 300px 30px 10px;
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 50px;
+}
+.footer-bar ul p {
+    font-size: 24px;
+    font-family: "Inter";
+    font-optical-sizing: auto;
+    color: #E9BD8D;
+}
+.line hr{
+    width: 90%;             
+    margin: 0 auto;          
+    display: block;
+    border: none;           
+    border-top: 2px solid #E9BD8D;
+}
+.main {
+    margin-top:50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+    
+}
+
+.footer-section {
+    margin: 10px;
+    text-align: left;
+
+    
+  }
+.footer-section h3 {
+    color: #E9BD8D; 
+    font-size:36px;
+  }
+.footer-section p,
+.footer-section a {
+    color: #ccc; 
+    font-size:24px;
+    font-family: bold "Poppins";
+    font-optical-sizing: auto;
+
+    
+  }
+.footer-section a {
+    text-decoration: none;
+  }
+.footer-section a:hover {
+    text-decoration: underline;
+  }
+.news-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+.news-item img {
+    width: 100px;
+    height: 67px;
+    margin-right: 10px;
+}
+span{
+  color: #E9BD8C; 
+  font-size:18px;
+}  
+.footer-bottom {
+    margin-top: 150px;
+    font-size:  24px;
+    font-size:bold;
+    color:#737373;
+}
+
+
+  
+  
+
+
+
+
+
+  
+  
